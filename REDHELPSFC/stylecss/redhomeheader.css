@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: candara;
+	font-size:20px;
+ /* background-color: lightblue;*/
+}
+.sricolor {
+    top: 0;
+    /*position: fixed;*/
+    border: none;
+    background-color: rgb(252, 216, 223);  
+    width:100%;  
+  }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*input,button,textarea{
+    border: none;
+    outline: none;
+}*/
+button{
+    border: none;
+    outline: none;
+}
+/*****************NAVIGATION*************/
+/*describe the heading of which as button link respective page */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    margin: 3.5px;
+    padding: 0 20px;
+    display: flex;
+    font-size:20.5px ;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.6s ease-in-out;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    background:linear-gradient(-135deg, #e9c4d0, #f25771);
+    color: black;
+    box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+/**the above one is the heading one like placing the all the compoents like home,registration etc..**/
+/*the next one is the image*/
+
